@@ -1,0 +1,19 @@
+Algorithme:exercice1
+Début
+    Lire la longueur du tableau n
+    Déclarer T1[n], T2[n], T3[n]
+
+    Pour i de 0 à n-1 faire
+        Lire T1[i]
+    Fin Pour
+
+    Pour i de 0 à n-1 faire
+        Lire T2[i]
+    Fin Pour
+
+    Pour i de 0 à n-1 faire
+        T3[i] ← T1[i] + T2[i]
+    Fin Pour
+
+    Afficher "Tableau résultant T3 : ", T3
+Fin
